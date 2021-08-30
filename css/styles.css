@@ -29,11 +29,11 @@ body{
 
 #time{
     font-size: 7rem;
-    margin-top: 8rem;
+    margin-top: 10vh;
 }
 
 h1{
-    margin-bottom: 3rem;
+    margin-bottom: 3vh;
 }
 
 h2{
@@ -42,7 +42,7 @@ h2{
 }
 
 h3{
-    margin-top: 10rem;
+    margin-top: 12vh;
 }
 
 #focus, #name, #edit-quote{
@@ -51,7 +51,7 @@ h3{
 
 #quote{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #change-quote{
@@ -206,6 +206,10 @@ h3{
     .todo{
         width: 300px;
     }
+
+    #quote{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 340px){
@@ -240,5 +244,9 @@ h3{
 
     .item-input{
         width: 50%;
+    }
+
+    #edit-quote{
+        font-size: 0.8rem;
     }
 }
